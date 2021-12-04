@@ -16,11 +16,11 @@ function App() {
         <Nav />
         
         <Routes>
-          <Route path="/" element={<AboutUs />} />
+          <Route path="/" exact element={<AboutUs />} />
         
           <Route path="/" element={<ContactUs />} /> 
         
-          <Route path="/" element={<OurWork />} />
+          <Route path="/" exact element={<OurWork />} />
         </Routes>    
 
     </div>

@@ -11,18 +11,17 @@ function App() {
   return (
     <div className="App">
       
-        <GlobalStyle />
-      
-        <Nav />
-        
         <Routes>
-          <Route path="/" element={<AboutUs />} />
+          <Route path="GlobalStyle" element={<GlobalStyle />} />
+        </Routes>
+        <Routes>
+          <Route path="/" element={<Nav />} />
+        </Routes>
+        <Routes>
+          <Route path="./" element={<AboutUs />} />
+        </Routes>
         
-          <Route path="/" element={<ContactUs />} /> 
-        
-          <Route path="/" element={<OurWork />} />
-        </Routes>    
-
+      
     </div>
   );
 }

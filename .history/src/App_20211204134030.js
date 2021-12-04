@@ -5,24 +5,23 @@ import GlobalStyle from "./components/GlobalStyle";
 import ContactUs from "./pages/ContactUs";
 import OurWork from "./pages/OurWork";
 import Nav from "./components/Nav";
-import {Routes,Route} from "react-router-dom";
+import {BrowserRouter,Routes,Route} from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
       
-        <GlobalStyle />
-      
-        <Nav />
-        
         <Routes>
-          <Route path="/" element={<AboutUs />} />
-        
-          <Route path="/" element={<ContactUs />} /> 
-        
-          <Route path="/" element={<OurWork />} />
-        </Routes>    
-
+          <Route path="/GlobalStyle" element={<GlobalStyle />} />
+        </Routes>
+        <Route>
+          <Route path="/Nav" element={<Nav />} />
+        </Route>
+        <Route>
+          <Route path="/AboutUs" element={<AboutUs />} />
+        </Route>
+        </Routes>
+      
     </div>
   );
 }

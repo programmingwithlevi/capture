@@ -5,16 +5,16 @@ import {Link} from 'react-router-dom';
 const Nav = () => {
     return(
         <StyledNav>
-            <h1><Link id="logo" to="/">Capture</Link></h1>
+            <h1><a id="logo" href="#">Capture</a></h1>
             <ul>
                 <li>
-                    <Link to="/">1. About Us</Link>
+                    <Link href="#">1. About Us</Link>
                 </li>
                 <li>
-                    <Link to="/OurWork">2. Our Work</Link>
+                    <Link href="#">2. Our Work</Link>
                 </li>
                 <li>
-                    <Link to="/ContactUs">3. Contact Us</Link>
+                    <Link href="#">3. Contact Us</Link>
                 </li>
             </ul>
         </StyledNav>
