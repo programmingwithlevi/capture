@@ -23,7 +23,7 @@ function App() {
           <Route path="/ContactUs" exact element={<ContactUs />} /> 
           
           <Route path="/OurWork" element={<OurWork />} />
-          <Route path="/OurWork/:id" element={<movieDetail/>}  />
+          <Route path="/OurWork/:id" (element={<movieDetail/>})  />
         </Routes>    
 
     </div>

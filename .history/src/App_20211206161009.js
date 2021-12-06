@@ -5,7 +5,7 @@ import GlobalStyle from "./components/GlobalStyle";
 import ContactUs from "./pages/ContactUs";
 import OurWork from "./pages/OurWork";
 import Nav from "./components/Nav";
-import movieDetail from "./pages/movieDetail";
+import movieDetail from './pages/movieDetail';
 //router
 import {Routes,Route} from "react-router-dom";
 
@@ -18,12 +18,12 @@ function App() {
         <Nav />
         
         <Routes>
-          <Route path="/" exact element={<AboutUs />} />
+          <Route path="/" element={<AboutUs />} />
         
-          <Route path="/ContactUs" exact element={<ContactUs />} /> 
+          <Route path="/ContactUs" element={<ContactUs />} /> 
           
           <Route path="/OurWork" element={<OurWork />} />
-          <Route path="/OurWork/:id" element={<movieDetail/>}  />
+          <Route path="/OurWork/:id" element={movieDetail} />
         </Routes>    
 
     </div>

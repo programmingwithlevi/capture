@@ -46,11 +46,6 @@ const Movie = styled.div`
         background: #cccccc;
         margin-top: 3rem;
     }
-    img{
-        width: 100%;
-        height: 70vh;
-        object-fit: cover;
-    }
 `;
 
 

@@ -18,7 +18,7 @@ const OurWork = () => {
                 <h2>The Racer</h2>
                 <div className="line"></div>
                 <Link to="/">
-                <img src={theracer} alt="theracer-small" /></Link>
+                <img src={theracer-small} alt="theracer-small" /></Link>
             </Movie>
             <Movie>
                 <h2>Good Times</h2>
@@ -45,11 +45,6 @@ const Movie = styled.div`
         height: 0.5rem;
         background: #cccccc;
         margin-top: 3rem;
-    }
-    img{
-        width: 100%;
-        height: 70vh;
-        object-fit: cover;
     }
 `;
 
