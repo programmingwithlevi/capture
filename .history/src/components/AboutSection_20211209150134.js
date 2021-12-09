@@ -11,12 +11,12 @@ const AboutSection = () => {
     }
     const container = {
         hidden: { x: 100},
-        show: { x: 0, transition: { duration: 0.75, ease: "easeOut", staggerChildren: 1, when: "beforeChildren" },},
+        show: { x: 0},
     }
     return (
         <About>
             <Description>
-                <motion.div variants={container} initial="hidden" animate="show" className="title">
+                <motion.div className="title">
                     <div className="hide">
                         <motion.h2 variants={container} initial='hidden' animate="show">We work to make</motion.h2>
                     </div>
