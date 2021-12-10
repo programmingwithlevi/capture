@@ -12,12 +12,11 @@ import {sliderContainer,slider,pageAnimation,fade,photoAnim,lineAnim} from "../a
 const OurWork = () => {
     return(
         <Work exit="exit" variants={pageAnimation} initial="hidden" animate="show">
-            <motion.div variants={sliderContainer}>
+            <motion.div></div>
             <Frame1 variants={slider}></Frame1>
             <Frame2 variants={slider}></Frame2>
             <Frame3 variants={slider}></Frame3>
             <Frame4 variants={slider}></Frame4>
-            </motion.div>
 
             <Movie>
                 <motion.h2 variants={fade}>The Athlete</motion.h2>
