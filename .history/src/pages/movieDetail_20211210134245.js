@@ -26,8 +26,8 @@ const MovieDetail = () => {
         <Details exit="exit" 
                 variants={pageAnimation} 
                 initial="hidden" 
-                animate="show">
-                
+                animate="show"
+                style={{ background: #FFF }}>
         <HeadLine>
             <h2>{movie.title}</h2>
             <img src={movie.mainImg} alt="movie" />
@@ -47,8 +47,7 @@ const MovieDetail = () => {
  }
 
 const Details = styled(motion.div)`
-    //color: white;
-    background: #FFF;
+    color: white;
 `
 const HeadLine = styled.div`
     min-height: 90vh;
@@ -91,7 +90,6 @@ const AwardStyle = styled.div`
     }
     p{
         padding: 2rem 0rem;
-        color: black;
     }
 `
 

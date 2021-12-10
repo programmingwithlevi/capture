@@ -29,7 +29,7 @@ function App() {
             <OurWork />
           </Route>
           <Route path="/work/:id">
-            <MovieDetail />
+            <MovieDetail location={location} key={location.pathname}/>
           </Route>
           <Route path="/contact">
             <ContactUs /> 

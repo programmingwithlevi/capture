@@ -27,7 +27,6 @@ const MovieDetail = () => {
                 variants={pageAnimation} 
                 initial="hidden" 
                 animate="show">
-                
         <HeadLine>
             <h2>{movie.title}</h2>
             <img src={movie.mainImg} alt="movie" />
@@ -47,8 +46,7 @@ const MovieDetail = () => {
  }
 
 const Details = styled(motion.div)`
-    //color: white;
-    background: #FFF;
+    color: white;
 `
 const HeadLine = styled.div`
     min-height: 90vh;
@@ -83,7 +81,6 @@ const AwardStyle = styled.div`
         
     }
     .line{
-        position: center;
         width: 100%;
         background: #23d997;
         height: 0.5rem;
@@ -91,7 +88,6 @@ const AwardStyle = styled.div`
     }
     p{
         padding: 2rem 0rem;
-        color: black;
     }
 `
 

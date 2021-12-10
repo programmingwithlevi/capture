@@ -5,7 +5,7 @@ import ServicesSection from '../components/ServicesSection';
 import FaqSection from '../components/FaqSection';
 //animaiton
 import {motion} from "framer-motion";
-import {pageAnimation} from '../animations';
+import { pageAnimation } from '../animations';
 
 const AboutUs = () => {
     return (

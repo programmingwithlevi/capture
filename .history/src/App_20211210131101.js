@@ -28,7 +28,7 @@ function App() {
           <Route path="/work" exact>
             <OurWork />
           </Route>
-          <Route path="/work/:id">
+          <Route location={location} key={location.pathname} path="/work/:id">
             <MovieDetail />
           </Route>
           <Route path="/contact">

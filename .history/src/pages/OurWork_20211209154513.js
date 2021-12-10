@@ -7,11 +7,11 @@ import theracer from "../img/theracer-small.png";
 import goodtimes from "../img/goodtimes-small.png";
 //animation
 import {motion} from "framer-motion";
-import {pageAnimation} from "../animations";
+import { pageAnimation } from "../animations";
 
 const OurWork = () => {
     return(
-        <Work exit="exit" variants={pageAnimation} initial="hidden" animate="show">
+        <Work variants={pageAnimation} intitial="hidden" animate="show">
             <Movie>
                 <h2>The Athlete</h2>
                 <div className="line"></div>

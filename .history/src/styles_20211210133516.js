@@ -7,7 +7,7 @@ export const About = styled.div`
     justify-content: space-between;
     padding: 5rem 10rem;
     color: white;
-   //position: center;
+   position: center;
     top: 10%;
     
 `;
