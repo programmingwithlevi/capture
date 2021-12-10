@@ -55,7 +55,6 @@ const HeadLine = styled.div`
     padding-top: 20vh;
     position: relative;
     
-    
 
     h2{
         position: absolute;
@@ -79,13 +78,12 @@ const Awards = styled.div`
     align-items: center;
     justify-content: space-around;
     
-    
     `
 const AwardStyle = styled.div`
     padding: 5rem;
     h3{
         font-size: 2rem;
-        color: black;
+        
        
         
     }
@@ -98,7 +96,7 @@ const AwardStyle = styled.div`
     }
     p{
         padding: 2rem 0rem;
-        color: black;
+        
     }
 `
 

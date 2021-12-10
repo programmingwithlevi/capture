@@ -98,7 +98,7 @@ const AwardStyle = styled.div`
     }
     p{
         padding: 2rem 0rem;
-        color: black;
+        
     }
 `
 

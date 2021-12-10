@@ -48,18 +48,15 @@ const MovieDetail = () => {
 
 const Details = styled(motion.div)`
     //color: white;
-   background: #FFF;
+    background: #FFF;
 `
 const HeadLine = styled.div`
     min-height: 90vh;
     padding-top: 20vh;
     position: relative;
-    
-    
 
     h2{
         position: absolute;
-        color: black;
         top: 10%;
         left: 50%;
         transform: translate(-50%, -10%);
@@ -78,14 +75,12 @@ const Awards = styled.div`
     margin: 5rem 10rem;
     align-items: center;
     justify-content: space-around;
-    
-    
+    color: black;
     `
 const AwardStyle = styled.div`
     padding: 5rem;
     h3{
         font-size: 2rem;
-        color: black;
        
         
     }

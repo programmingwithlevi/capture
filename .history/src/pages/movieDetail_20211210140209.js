@@ -78,14 +78,14 @@ const Awards = styled.div`
     margin: 5rem 10rem;
     align-items: center;
     justify-content: space-around;
-    
+    color: black;
     
     `
 const AwardStyle = styled.div`
     padding: 5rem;
     h3{
         font-size: 2rem;
-        color: black;
+        
        
         
     }
@@ -98,7 +98,7 @@ const AwardStyle = styled.div`
     }
     p{
         padding: 2rem 0rem;
-        color: black;
+        
     }
 `
 

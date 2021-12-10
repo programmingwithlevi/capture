@@ -3,7 +3,7 @@ import home1 from '../img/home1.png';
 import {About,Description,Image,Hide } from '../styles';
 //Framer Motion
 import {motion} from "framer-motion";
-import {titleAnim,fade,photoAnim} from '../animations';
+import {titleAnim,fade} from '../animations';
 
 const AboutSection = () => {
     
@@ -15,7 +15,7 @@ const AboutSection = () => {
                         <motion.h2>We work to make</motion.h2>
                     </div>
                     <Hide>
-                        <motion.h2>your <span>dreams</span> </motion.h2>
+                        <h2>your <span>dreams</span> </h2>
                     </Hide>
                     <Hide>
                         <motion.h2 variants={titleAnim}>come true.</motion.h2>
@@ -25,7 +25,7 @@ const AboutSection = () => {
                 <motion.button>Contact Us</motion.button>
             </Description>
             <Image>
-                <motion.img variants={photoAnim} src={home1} alt="camera guy"/>
+                <img src={home1} alt="camera guy"/>
 
             </Image>
         </About>
