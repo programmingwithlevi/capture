@@ -2,20 +2,18 @@ import React from 'react';
 import styled from 'styled-components';
 import {About} from '../styles';
 import Toggle from './Toggle';
-import {AnimateSharedLayout} from 'framer-motion';
 
 const FaqSection = () => {
     return(
         <Faq>
             <h2>Any Questions? <span>FAQ</span></h2>
-            <AnimateSharedLayout>
             <Toggle title="How Do I Start?">
           
                 <div className="answer">
                    <p>asdfefdvasdav esdvs asdf as df</p> 
                     <p>a asdf evvt tgagr fadee ddfaef</p>
                 </div>               
-            
+            </div>
             </Toggle>
             <Toggle title="Daily Schedule">
                           
@@ -23,7 +21,7 @@ const FaqSection = () => {
                    <p>asdfefdvasdav esdvs asdf as df</p> 
                     <p>a asdf evvt tgagr fadee ddfaef</p>
                 </div>               
-            
+            </div>
             </Toggle>
             <Toggle title="Different Payment Methods">
                         
@@ -31,7 +29,7 @@ const FaqSection = () => {
                    <p>asdfefdvasdav esdvs asdf as df</p> 
                     <p>a asdf evvt tgagr fadee ddfaef</p>
                 </div>              
-            
+            </div>
             </Toggle>
             <Toggle title="What Products Do You Offer?">
                          
@@ -39,9 +37,8 @@ const FaqSection = () => {
                    <p>asdfefdvasdav esdvs asdf as df</p> 
                     <p>a asdf evvt tgagr fadee ddfaef</p>
                 </div>  
-            
+            </div>
             </Toggle>
-            </AnimateSharedLayout>
         </Faq>
     )
 }

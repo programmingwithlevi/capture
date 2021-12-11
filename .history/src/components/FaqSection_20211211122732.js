@@ -2,13 +2,11 @@ import React from 'react';
 import styled from 'styled-components';
 import {About} from '../styles';
 import Toggle from './Toggle';
-import {AnimateSharedLayout} from 'framer-motion';
 
 const FaqSection = () => {
     return(
         <Faq>
             <h2>Any Questions? <span>FAQ</span></h2>
-            <AnimateSharedLayout>
             <Toggle title="How Do I Start?">
           
                 <div className="answer">
@@ -41,7 +39,6 @@ const FaqSection = () => {
                 </div>  
             
             </Toggle>
-            </AnimateSharedLayout>
         </Faq>
     )
 }

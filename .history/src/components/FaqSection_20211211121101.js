@@ -2,46 +2,51 @@ import React from 'react';
 import styled from 'styled-components';
 import {About} from '../styles';
 import Toggle from './Toggle';
-import {AnimateSharedLayout} from 'framer-motion';
 
 const FaqSection = () => {
     return(
         <Faq>
             <h2>Any Questions? <span>FAQ</span></h2>
-            <AnimateSharedLayout>
-            <Toggle title="How Do I Start?">
-          
+            <Toggle title="How do I start?">
+            <div className="question">
+                <h4>How do I start?</h4>
                 <div className="answer">
                    <p>asdfefdvasdav esdvs asdf as df</p> 
                     <p>a asdf evvt tgagr fadee ddfaef</p>
-                </div>               
-            
+                </div>
+                
+            </div>
             </Toggle>
-            <Toggle title="Daily Schedule">
-                          
+            <Toggle>
+            <div className="question">
+                <h4>Daily Schedule</h4>
                 <div className="answer">
                    <p>asdfefdvasdav esdvs asdf as df</p> 
                     <p>a asdf evvt tgagr fadee ddfaef</p>
-                </div>               
-            
+                </div>
+                <div className="faq-line"></div>
+            </div>
             </Toggle>
-            <Toggle title="Different Payment Methods">
-                        
+            <Toggle>
+            <div className="question">
+                <h4>Differenct payment methods</h4>
                 <div className="answer">
                    <p>asdfefdvasdav esdvs asdf as df</p> 
                     <p>a asdf evvt tgagr fadee ddfaef</p>
-                </div>              
-            
+                </div>
+                <div className="faq-line"></div>
+            </div>
             </Toggle>
-            <Toggle title="What Products Do You Offer?">
-                         
+            <Toggle>
+            <div className="question">
+                <h4>What products do you offer?</h4>
                 <div className="answer">
                    <p>asdfefdvasdav esdvs asdf as df</p> 
                     <p>a asdf evvt tgagr fadee ddfaef</p>
-                </div>  
-            
+                </div>
+                <div className="faq-line"></div>
+            </div>
             </Toggle>
-            </AnimateSharedLayout>
         </Faq>
     )
 }
