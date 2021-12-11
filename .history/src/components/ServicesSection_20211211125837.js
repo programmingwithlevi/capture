@@ -9,15 +9,14 @@ import home2 from '../img/home2.png';
 import {About,Description,Image} from "../styles";
 import styled from "styled-components";
 //Test
+import {useInView} from 'react-intersection-observer';
+import {useAnimation} from 'framer-motion';
 
-import {fade} from '../animations';
-import {UseScroll} from './UseScroll';
 
 const ServicesSection = () => {
-    //const controls = useAnimation();
-    const [element,controls] = UseScroll();
+    const [element,view] = useInView{threshold: 0.5};
     return(
-        <Services variants={fade} animate={controls} initial="hidden" ref={element}>
+        <Services ref={element}>
             <Description>
                 <h2>High <span>quality</span> services</h2>
                 <Cards>

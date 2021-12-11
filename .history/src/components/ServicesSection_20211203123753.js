@@ -8,17 +8,11 @@ import home2 from '../img/home2.png';
 //styles
 import {About,Description,Image} from "../styles";
 import styled from "styled-components";
-//Test
-
-import {fade} from '../animations';
-import {UseScroll} from './UseScroll';
 
 const ServicesSection = () => {
-    //const controls = useAnimation();
-    const [element,controls] = UseScroll();
     return(
-        <Services variants={fade} animate={controls} initial="hidden" ref={element}>
-            <Description>
+        <About>
+            <div className="description">
                 <h2>High <span>quality</span> services</h2>
                 <Cards>
                     <Card>
@@ -50,12 +44,12 @@ const ServicesSection = () => {
                         <p>lorem5 </p>
                     </Card>
                 </Cards>
-            </Description>
+            </div>
         <div className="image">
             <img alt="camera" src={home2} />
 
         </div>
-        </Services>
+        </About>
     )
 }
 

@@ -15,7 +15,7 @@ import {UseScroll} from './UseScroll';
 
 const ServicesSection = () => {
     //const controls = useAnimation();
-    const [element,controls] = UseScroll();
+    cont [element,controls] = UseScroll();
     return(
         <Services variants={fade} animate={controls} initial="hidden" ref={element}>
             <Description>

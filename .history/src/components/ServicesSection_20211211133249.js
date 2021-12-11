@@ -11,11 +11,11 @@ import styled from "styled-components";
 //Test
 
 import {fade} from '../animations';
-import {UseScroll} from './UseScroll';
+import {useScroll} from './UseScroll';
 
 const ServicesSection = () => {
     //const controls = useAnimation();
-    const [element,controls] = UseScroll();
+    cont [element,controls] = UseScroll();
     return(
         <Services variants={fade} animate={controls} initial="hidden" ref={element}>
             <Description>
