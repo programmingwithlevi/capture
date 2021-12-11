@@ -38,7 +38,7 @@ const OurWork = () => {
                 <Link to="/work/the-racer">
                 <img src={theracer} alt="theracer-small" /></Link>
             </Movie>
-            <Movie ref={element2} variants={fade} animate={controls2} initial="hidden">
+            <Movie ref={element} variants={fade} animate={controls} initial="hidden">
                 <h2>Good Times</h2>
                 <motion.div variants={lineAnim} className="line"></motion.div>
                 <Link to="/work/good-times">
