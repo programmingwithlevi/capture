@@ -28,7 +28,7 @@ const ContactUs = () => {
                 <Hide>
                 <Social variants={titleAnim}>
                     <Circle />
-                        <h2>Send An Email</h2>
+                        <h2>Talk With Our Experts</h2>
                 </Social>
                 </Hide>
                 <Hide>

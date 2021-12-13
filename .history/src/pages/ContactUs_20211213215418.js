@@ -28,13 +28,13 @@ const ContactUs = () => {
                 <Hide>
                 <Social variants={titleAnim}>
                     <Circle />
-                        <h2>Send An Email</h2>
+                        <h2>Send Us A Message</h2>
                 </Social>
                 </Hide>
                 <Hide>
                 <Social variants={titleAnim}>
                     <Circle />
-                        <h2>Find Us on Facebook</h2>
+                        <h2>Send Us A Message</h2>
                 </Social>
                 </Hide>
             </div>

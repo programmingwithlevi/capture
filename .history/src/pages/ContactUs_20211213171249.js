@@ -19,24 +19,7 @@ const ContactUs = () => {
                 </Hide> 
             </Title>
             <div>
-                <Hide>
-                <Social variants={titleAnim}>
-                    <Circle />
-                        <h2>Send Us A Message</h2>
-                </Social>
-                </Hide>
-                <Hide>
-                <Social variants={titleAnim}>
-                    <Circle />
-                        <h2>Send An Email</h2>
-                </Social>
-                </Hide>
-                <Hide>
-                <Social variants={titleAnim}>
-                    <Circle />
-                        <h2>Find Us on Facebook</h2>
-                </Social>
-                </Hide>
+
             </div>
         </ContactStyle>
     )
@@ -47,27 +30,13 @@ const ContactStyle = styled(motion.div)`
     min-height: 90vh; 
 `
 const Title = styled.div`
-    padding-top:2rem;
-    margin-bottom: 2rem;
-    margin-left:1rem;
+    margin-bottom: 4rem;
     color: black;
 `
 const Hide = styled.div`
     overflow: hidden;
     `
-const Circle = styled.div`
-    border-radius: 50%;
-    width: 3rem;
-    height: 3rem;
-    background: #353535;
-`
 const Social = styled(motion.div)`
-    display: flex;
-    align-items: center;
-    margin-left: 3rem;
-    h2{
-        margin: 2rem;
-    };
 `
 
 
