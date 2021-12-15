@@ -30,8 +30,6 @@ const StyledNav = styled.nav`
     padding: 1rem 10rem;
     background: #282828;
     position: sticky;
-    top: 0;
-    z-index: 10;
     a{
         color: white;
         text-decoration: none;

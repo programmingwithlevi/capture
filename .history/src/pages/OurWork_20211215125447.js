@@ -11,7 +11,6 @@ import {sliderContainer,slider,pageAnimation,fade,photoAnim,lineAnim} from "../a
 import {UseScroll} from "../components/UseScroll";
 import ScrollTop from "../components/ScrollTop";
 
-
 const OurWork = () => {
     const [element,controls] = UseScroll();
     const [element2,controls2] = UseScroll();
