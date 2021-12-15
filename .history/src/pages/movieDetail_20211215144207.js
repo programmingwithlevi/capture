@@ -54,7 +54,6 @@ const HeadLine = styled.div`
     min-height: 90vh;
     padding-top: 20vh;
     position: relative;
-   
     
     
 
@@ -75,11 +74,11 @@ const HeadLine = styled.div`
 `
 const Awards = styled.div`
     min-height: 80vh;
-    display: flex;
+    display: block;
     margin: 5rem 10rem;
     align-items: center;
     justify-content: space-around;
-    @media (max-width: 1500px) {
+    @media (max-width: 1500){
         display: block;
         margin: 2rem 2rem;
     }

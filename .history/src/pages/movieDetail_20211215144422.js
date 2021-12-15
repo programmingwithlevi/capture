@@ -54,7 +54,6 @@ const HeadLine = styled.div`
     min-height: 90vh;
     padding-top: 20vh;
     position: relative;
-   
     
     
 

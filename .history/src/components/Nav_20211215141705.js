@@ -53,8 +53,7 @@ const StyledNav = styled.nav`
     flex-direction: column;
     padding: 2rem 1rem;
     #logo{
-        display: inline-block;
-        margin: 1rem;
+        margin: 2rem;
     }
     ul{
         padding: 2rem;
