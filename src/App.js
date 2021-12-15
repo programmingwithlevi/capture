@@ -12,13 +12,14 @@ import {Route,Switch,useLocation} from "react-router-dom";
 //animaitom
 import {AnimatePresence} from "framer-motion";
 
+
 function App() {
   const location = useLocation();
   return  (
     <div className="App">
       
         <GlobalStyle />
-      
+        
         <Nav />
         <AnimatePresence exitBeforeEnter>
         <Switch location={location} key={location.pathname}>
